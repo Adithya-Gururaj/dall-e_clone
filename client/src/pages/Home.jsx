@@ -20,7 +20,7 @@ const Home = () => {
     setLoading(true);
 
     try {
-      const response = await fetch('http://localhost:8888/api/v1/post', {
+      const response = await fetch('https://dall-e-ksp8.onrender.com/api/v1/post', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
